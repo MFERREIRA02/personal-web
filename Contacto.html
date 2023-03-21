@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contacto: María Laura Ferreira Niño</title>
+		<link rel="icon" href="smily.ico">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<nav>
+			<a href="Index.html">About me</a>
+			<a href="Portafolio.html">Portafolio</a>
+			<a href="Contacto.html">Contacto</a>
+		</nav>
+		<main>
+			<h1>Contacto: María Laura Ferreira Niño</h1>
+			<p>Si deseas contactar conmigo, rellena este formulario.</p>
+		</main>
+		 <form action="action.php" method="get">
+      <fieldset>
+        <legend>Datos</legend>
+        <label for="id-nombre">Nombres: </label>
+        <input type="text" name="nombres" id="id-nombre">
+        <br><br>
+        <label for="id-email">Email: </label>
+        <input type="email" name="email" id="id-email">
+      </fieldset>
+      <fieldset>
+        <legend>Mensaje</legend>
+        <label for="id-motivo">Elija el ámbito que desee tratar</label>
+        <select id="id-motivo" name="Elija el ámbito que desee tratar">
+          <option selected>Fotografía</option>
+          <option>Escritura</option>
+          <option>Sugerencia</option>
+        </select>
+        <br><br>
+        <textarea name="mensaje" rows="6" cols="30" placeholder="Mensaje"></textarea>
+      </fieldset>
+      <br>
+      <input type="checkbox" name="condiciones" id="id-condiciones" value="1">
+      <label for="id-condiciones">Acepto las condiciones</label>
+      <br><br>
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+	</body>
+</html>

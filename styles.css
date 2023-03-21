@@ -1,0 +1,52 @@
+body {
+  background-color: #fff0ff;
+}
+
+h1 {
+  font-size: 180%;
+  font-family: Lucida Console;
+  letter-spacing: 10px;
+  text-align: center;
+color: #6B449E;
+}
+
+h2{
+  color: #6B449E;
+  font-family: Lucida Console;
+  }
+h3{
+  color: black;
+  color: black;
+  font-family: Arial;
+  }
+ p {
+	 font-family: Verdana;
+	 line-height: 1.3;
+ }
+li {
+	font-family: Verdana;
+	line-height: 1.8;
+}
+nav {
+	font-family: Verdana;
+	line-height: 1.3;
+}
+a { 
+  color: black; 
+}
+#fotoML{
+	width: 180px;
+	height: 220px;
+}
+#fotogustos{
+	width: 380px;
+	height: 520px;
+}
+#revista{
+	width: 180px;
+	height: 220px;
+}
+#fotografias{
+	width: 620px;
+	height: 360px;
+}
